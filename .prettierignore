@@ -1,0 +1,10 @@
+# Исключаем файлы конфигурации, которые могут сломаться
+*.config.js
+*.config.mjs
+.eslintrc.js
+.prettierrc
+.stylelintrc
+package.json
+
+# Исключаем файлы данных (чтобы они не ломались при форматировании)
+src/cards/*.js

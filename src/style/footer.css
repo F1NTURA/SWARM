@@ -1,0 +1,172 @@
+footer {
+  background-color: #1b1b1b;
+  border-radius: 25px 25px 0 0;
+  margin-top: 40px;
+}
+
+.footer_swarm-logo {
+  display: block;
+  width: 70px;
+  margin: 15px auto;
+}
+
+hr {
+  border-top: 5px solid white;
+}
+
+footer nav {
+  display: flex;
+  width: 500px;
+}
+
+footer ul {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+footer nav p {
+  font-size: 25px;
+}
+
+footer nav a {
+  font-size: 20px;
+}
+
+footer button {
+  color: white;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  margin-right: 70px;
+  border: 2px solid transparent;
+  background-color: transparent;
+  background:
+    linear-gradient(#303030, #303030) padding-box,
+    linear-gradient(90deg,
+      rgb(106 0 255 / 100%) 0%,
+      rgb(145 66 241 / 100%) 33%,
+      rgb(164 98 234 / 100%) 64%,
+      rgb(183 131 227 / 100%) 100%) border-box;
+  background-clip: padding-box, border-box;
+}
+
+.footer_nav-block {
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+}
+
+.footer_content {
+  display: flex;
+  align-items: center;
+  margin: 60px 0;
+  justify-content: space-between;
+}
+
+/* .footer_swarm-bottom-logo {
+  display: block;
+  margin: 0 auto;
+  font-size: 300px;
+  color: #1f1f1f;
+  text-align: center;
+} */
+
+
+footer nav a:hover {
+    color: white;
+}
+@media (max-width: 710px) {
+  footer button {
+    width: 80px;
+    height: 80px;
+    margin-right: 25px;
+  }
+
+  .footer_nav-block:nth-child(1) {
+    margin-right: 50px;
+  }
+
+  footer nav {
+    display: flex;
+    width: 375px;
+  }
+
+}
+
+@media (max-width: 525px) {
+  footer nav a {
+    font-size: 15px;
+  }
+
+  footer nav p {
+    font-size: 20px;
+  }
+
+  footer nav {
+    display: flex;
+    width: 310px;
+  }
+
+}
+
+@media (max-width: 465px) {
+  .footer_content {
+    margin: 35px 0;
+  }
+
+  .footer_nav-block:nth-child(1) {
+    margin-right: 35px;
+  }
+
+  footer button {
+    margin-right: 0px;
+  }
+
+  footer nav a {
+    font-size: 13px;
+  }
+
+  footer nav p {
+    font-size: 17px;
+  }
+
+  footer ul {
+    margin-top: 15px;
+  }
+
+  footer nav {
+    width: 255px;
+  }
+}
+
+@media (max-width: 465px) {
+  footer nav p {
+    font-size: 15px;
+  }
+
+  footer nav a {
+    font-size: 10px;
+  }
+
+  footer ul {
+    gap: 3px;
+
+  }
+
+  footer nav {
+    width: 230px;
+  }
+}
+
+@media (max-width: 320px) {
+  .footer_nav-block:nth-child(1) {
+    margin-right: 10px;
+  }
+
+  footer button {
+    width: 60px;
+    height: 60px;
+  }
+}
