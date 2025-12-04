@@ -5,7 +5,7 @@ import { MainWelcome } from './sections/MainWelcome'
 import { MainBanner } from './sections/MainBanner'
 import { MainChats } from './sections/MainChats'
 
-export function MainСontent() {
+export function MainContent() {
   return (
     <main>
       <MainWelcome maskotSrc={maskot}></MainWelcome>
