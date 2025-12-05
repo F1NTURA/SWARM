@@ -1,6 +1,6 @@
 import './style/main.css'
 import maskot from './assets/swarm_maskot.png'
-import ad from './assets/ad.png'
+import ad from './assets/ad.jpg'
 import { MainWelcome } from './sections/MainWelcome'
 import { MainBanner } from './sections/MainBanner'
 import { MainChats } from './sections/MainChats'

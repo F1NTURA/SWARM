@@ -40,9 +40,6 @@ export function Footer() {
                   <a href="https://t.me/f1ntura" target='_blank'>Поддержка</a>
                 </li>
                 <li>
-                  <a href="#" target='_blank'>Частые вопросы</a>
-                </li>
-                <li>
                   <a href="https://t.me/f1ntura" target='_blank'>Предложение</a>
                 </li>
               </ul>
@@ -53,8 +50,8 @@ export function Footer() {
             <img src={arrow} height={20}></img>
           </button>
         </div>
-
         <hr></hr>
+        <p className='footer_swarm-bottom-logo'>SWARM</p>
       </div>
     </footer>
   )

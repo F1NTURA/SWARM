@@ -180,7 +180,7 @@ main {
     font-size: 16px;
     color: #D6D6D6;
     display: -webkit-box;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -750,7 +750,7 @@ main {
 
     .main__chats-card-text-subtitle {
         width: 155px;
-        -webkit-line-clamp: 4;
+        -webkit-line-clamp: 5;
     }
 
     .main__banner-card-text-subtitle {
@@ -821,7 +821,7 @@ main {
     }
 }
 
-@media (max-width: 570px) {
+@media (max-width: 575px) {
     .main__banner-card-btn-join {
         height: 30px;
         width: 101px;
@@ -839,8 +839,25 @@ main {
     }
 
     .main__banner-card-text-subtitle {
-        width: 190px;
-        -webkit-line-clamp: 2;
+        width: 220px;
+    }
+
+    .main__banner-card {
+        width: 360px;
+    }
+
+    .main__banner-card-text {
+        width: 221px;
+    }
+
+    .main__chats-card {
+        height: 315px;
+        width: 155px;
+    }
+
+    .main__chats-card-text-subtitle {
+        width: 135px;
+        -webkit-line-clamp: 3;
     }
 
 }
@@ -857,6 +874,20 @@ main {
 
     .main__banner-card-text-subtitle {
         width: 180px;
+        -webkit-line-clamp: 2;
+    }
+
+    .main__chats-card {
+        height: 300px;
+        width: 165px;
+    }
+
+    .main__chats-card img {
+        height: 140px;
+    }
+
+    .main__chats-card-text-subtitle {
+        width: 145px;
         -webkit-line-clamp: 2;
     }
 
@@ -878,26 +909,36 @@ main {
         width: 150px;
     }
 
+    .main__chats-card-text-subtitle {
+        width: 130px;
+        -webkit-line-clamp: 2;
+    }
+
 }
 
-@media (max-width: 370px) {
+@media (max-width: 375px) {
     .main__banner-ad {
         width: 270px;
         height: 150px;
+    }
+
+    .main__chats-card img {
+        height: 140px;
+    }
+
+    .main__chats-card {
+        height: 300px;
+        width: 160px;
     }
 
 }
 
 
 @media (max-width: 365px) {
-    .main__chats-card {
-        height: 290px;
-        width: 130px;
-    }
 
     .main__chats-card-text-subtitle {
         width: 115px;
-        -webkit-line-clamp: 3;
+        -webkit-line-clamp: 2;
     }
 
 }
@@ -930,6 +971,11 @@ main {
     .main__banner-card-text-subtitle {
         width: 140px;
         -webkit-line-clamp: 2;
+    }
+
+    .main__chats-card {
+        height: 290px;
+        width: 143px;
     }
 
 }

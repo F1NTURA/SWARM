@@ -65,18 +65,19 @@ footer button {
   justify-content: space-between;
 }
 
-/* .footer_swarm-bottom-logo {
+.footer_swarm-bottom-logo {
   display: block;
   margin: 0 auto;
-  font-size: 300px;
+  font-size: clamp(50px, 20vw, 300px);
   color: #1f1f1f;
   text-align: center;
-} */
+}
 
 
 footer nav a:hover {
-    color: white;
+  color: white;
 }
+
 @media (max-width: 710px) {
   footer button {
     width: 80px;

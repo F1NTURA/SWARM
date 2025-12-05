@@ -5,7 +5,7 @@ import SAINT from '../assets/SAINT.jpg'
 import gruppa from '../assets/gruppa.jpg'
 import hinakori from '../assets/hinakori.jpg'
 import RAY from '../assets/RAY.png'
-import gruppa_2 from '../assets/gruppa_2.jpg'
+import SMIRTIZCHAT from '../assets/SMIRTIZCHAT.jpg'
 
 export const chatsData = [
   {
@@ -58,11 +58,11 @@ export const chatsData = [
   },
   {
     id: 7,
-    images: black,
-    name: 'Свободно',
-    descriptions: 'Описания',
-    online: 0,
-    link: ""
+    images: SMIRTIZCHAT,
+    name: 'SMIRTIZCHAT',
+    descriptions: 'Отличный чат для общения,игр,поиска друзей,ждём только тебя!)',
+    online: 100,
+    link: "https://t.me/+BYZYA68_fPthNzBi"
   },
   {
     id: 8,
