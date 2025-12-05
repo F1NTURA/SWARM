@@ -546,6 +546,12 @@ main {
         width: 150px;
         -webkit-line-clamp: 4;
     }
+
+    .main__banner-card-text {
+        margin-left: 13px;
+        position: relative;
+        width: 150px;
+    }
 }
 
 @media (max-width: 810px) {
@@ -819,6 +825,12 @@ main {
         width: 145px;
         -webkit-line-clamp: 2;
     }
+
+    .main__banner-card-text {
+        margin-left: 13px;
+        position: relative;
+        width: 120px;
+    }
 }
 
 @media (max-width: 575px) {
@@ -891,6 +903,10 @@ main {
         -webkit-line-clamp: 2;
     }
 
+    .main__banner-card-text {
+        width: 180px;
+    }
+
 }
 
 @media (max-width: 395px) {
@@ -941,16 +957,16 @@ main {
         -webkit-line-clamp: 2;
     }
 
+    .main__banner-card-text {
+        margin-left: 13px;
+        position: relative;
+        width: 140px;
+    }
+
 }
 
 
 @media (max-width: 340px) {
-    .main__banner-card-text {
-        margin-left: 13px;
-        position: relative;
-        width: 180px;
-    }
-
     .main__banner-card-text-subtitle {
         width: 143px;
         -webkit-line-clamp: 2;
