@@ -14,7 +14,7 @@ export const chatsData = [
     name: 'Чат хинакори',
     descriptions: 'Живой чат для общения почти без правил',
     online: 400,
-    link: ""
+    link: "https://t.me/psichomani"
   },
   {
     id: 2,
